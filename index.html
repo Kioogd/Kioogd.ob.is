@@ -170,6 +170,19 @@
                             <option value="Otro">Otro</option>
                         </select>
                     </div>
+                    <!-- Después del campo de juegos, antes del mensaje -->
+<div class="form-group full-width">
+    <label for="codigo_verificacion">🔐 CÓDIGO DE VERIFICACIÓN (obligatorio)</label>
+    <input type="text" name="codigo_verificacion" id="codigo_verificacion" 
+          
+           required
+           pattern="[A-Z]{2}-\d{2}-\d{2}"
+           title="Formato: EH-24-03 (dos letras, guión, dos números, guión, dos números)">
+    <small style="color: #b9c1d0;">
+        ⚠️ Este código está en nuestro lugar privado lo tienes que conseguir por medio de nuestras redes sociales
+        
+    </small>
+</div>
                 </div>
                 <div class="form-group full-width">
                     <label for="mensaje">¿Por qué quieres unirte? ¿Qué puedes aportar?</label>
